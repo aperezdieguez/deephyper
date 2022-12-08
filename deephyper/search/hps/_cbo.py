@@ -595,7 +595,7 @@ class CBO(Search):
                 else:
                     scalar_constraints.append(
                         sdv.constraints.ScalarRange(
-                            hp_name, hp.lower, hp.upper, strict_boundaries=True
+                            hp_name, hp.lower, hp.upper
                         )
                     )
 
